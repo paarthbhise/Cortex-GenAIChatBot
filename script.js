@@ -1,7 +1,7 @@
 const socialIconButtons = document.getElementsByClassName("social-icon");
 
 function postToSocialMedia(classList) {
-    const content = `Check out my cool generative AI Project 😎 \n${window.location.href.toString()}`;
+    const content = `Check out Paarth's cool generative AI Project 😎 \n${window.location.href.toString()}`;
     if (classList.contains("twitter")) {
         const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
       content
